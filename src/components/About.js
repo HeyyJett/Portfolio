@@ -20,7 +20,7 @@ const About = () => {
 
                     <p className="py-5 selection:text-blue-400 text-justify">
                         From an early age, my fascination with technology sparked a deep interest
-                        that continued to grow. However, it wasn't until college that I finally
+                        that continued to grow. However, it wasn&rsquo;t until college that I finally
                         had the opportunity to write my first line of code. Since then, coding
                         has become my passion, fueling a sense of accomplishment that comes from
                         conquering intricate challenges.
