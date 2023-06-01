@@ -11,19 +11,19 @@ config.autoAddCss = false;
 const Contact = () => {
 
     return (
-        <div className="flex bg-slate-800 items-center justify-center px-20 select:text-blue-400" id="contact">
-            <div className="px-24 py-20 max-w-7xl">
+        <div className="flex bg-slate-800 items-center justify-center px-20 py-20 select:text-blue-400" id="contact">
+            <div className="max-w-7xl">
 
                 <h1 className="text-5xl text-blue-400 font-semibold py-5 selection:text-blue-900">
                     Contact Me
                 </h1>
 
-                <div className="flex flex-wrap py-5 items-center justify-center">
+                <div className="flex flex-col md:flex-row flex-wrap py-5 items-center justify-center">
 
                     {/*     Email Card      */}
-                    <div className="px-8 py-5">
+                    <div className="md:px-8 py-5">
 
-                        <div className="w-[30rem] h-[20rem] p-3 rounded-lg shadow-md bg-gray-600 content-center flex items-center justify-center
+                        <div className="w-[20rem] md:w-[30rem] h-[20rem] p-3 rounded-lg shadow-md bg-gray-600 content-center flex items-center justify-center
                         bg-[url('https://images.pexels.com/photos/714258/pexels-photo-714258.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')]
                         bg-no-repeat bg-cover bg-blend-multiply ">
 
@@ -48,8 +48,8 @@ const Contact = () => {
 
 
                     {/*     Linkedin Card      */}
-                    <div className="px-8 py-5">
-                        <div className="w-[30rem] h-[20rem] p-3 rounded-lg shadow-md bg-gray-600 content-center flex items-center justify-center
+                    <div className="md:px-8 py-5">
+                        <div className="w-[20rem] md:w-[30rem] h-[20rem] p-3 rounded-lg shadow-md bg-gray-600 content-center flex items-center justify-center
                         bg-[url('https://images.pexels.com/photos/355241/pexels-photo-355241.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')]
                         bg-no-repeat bg-cover bg-blend-multiply ">
 
@@ -72,8 +72,8 @@ const Contact = () => {
                     </div>
 
                     {/*     GitHub Card      */}
-                    <div className="px-8 py-5">
-                        <div className="w-[30rem] h-[20rem] p-3 rounded-lg shadow-md bg-gray-600 content-center flex items-center justify-center
+                    <div className="md:px-8 py-5">
+                        <div className="w-[20rem] md:w-[30rem] h-[20rem] p-3 rounded-lg shadow-md bg-gray-600 content-center flex items-center justify-center
                         bg-[url('https://images.pexels.com/photos/2356087/pexels-photo-2356087.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')]
                         bg-no-repeat bg-cover bg-blend-multiply ">
 
@@ -96,8 +96,8 @@ const Contact = () => {
                     </div>
 
                     {/*     Phone Card      */}
-                    <div className="px-8 py-5">
-                        <div className="w-[30rem] h-[20rem] p-3 rounded-lg shadow-md bg-gray-600 content-center flex items-center justify-center
+                    <div className="md:px-8 py-5">
+                        <div className="w-[20rem] md:w-[30rem] h-[20rem] p-3 rounded-lg shadow-md bg-gray-600 content-center flex items-center justify-center
                         bg-[url('https://images.pexels.com/photos/2937792/pexels-photo-2937792.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')]
                         bg-no-repeat bg-cover bg-blend-multiply ">
 
@@ -106,7 +106,8 @@ const Contact = () => {
                                 <FontAwesomeIcon icon={faMobileButton} size="2x" color="white"/>
 
                                 <div className="text-4xl text-blue-400 leading-tight py-3 selection:text-white">
-                                    Call me (or text me)
+                                    Call me
+                                    <span className="block md:inline">(or text me)</span>
                                 </div>
 
                                 <div>
@@ -118,6 +119,8 @@ const Contact = () => {
 
                         </div>
                     </div>
+
+
                 </div>
             </div>
         </div>

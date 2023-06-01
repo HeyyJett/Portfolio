@@ -7,10 +7,10 @@ import Image from "next/image";
 const Experience = () => {
 
     return (
-        <div className="flex bg-slate-800 items-center justify-center px-20" id="experience">
+        <div className="flex bg-slate-800 items-center justify-center px-20 py-20" id="experience">
+            <div className="max-w-7xl">
 
-            <div className="px-24 py-20 max-w-7xl">
-                <h1 className="text-5xl text-blue-400 font-semibold py-5 selection:text-blue-900 py-20">
+                <h1 className="text-5xl text-blue-400 font-semibold py-5 selection:text-blue-900">
                     Experience
                 </h1>
 
