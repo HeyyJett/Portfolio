@@ -131,7 +131,7 @@ const Experience = () => {
                             • Created a hot bar and inventory system, allowing players to manage and access their items and abilities efficiently during gameplay. <br/>
                             • Implemented animations for both player characters and enemies, utilizing box colliders to accurately calculate and apply damage dealt. <br/>
                             • Designed and constructed diverse maps and levels, providing engaging and challenging environments for players to explore. <br/>
-                            • Developed a shop and currency system, enabling players to purchase items, enhancing the game's progression and economy. <br/>
+                            • Developed a shop and currency system, enabling players to purchase items, enhancing the game&rsquo;s progression and economy. <br/>
                             • Collaborated with the team to ensure seamless integration of all components, optimizing performance and ensuring a cohesive gaming experience.
                         </p>
 
