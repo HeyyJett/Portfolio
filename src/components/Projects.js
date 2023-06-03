@@ -9,7 +9,7 @@ import Image from "next/image";
 const Projects = () => {
 
     return (
-        <div className="flex bg-slate-800 items-center justify-center px-20 py-20" id="projects">
+        <div className="flex bg-slate-800 items-center justify-center px-5 py-20" id="projects">
             <div className="max-w-7xl">
 
                 <h1 className="text-5xl text-blue-400 font-semibold py-5 selection:text-blue-900">
@@ -18,7 +18,7 @@ const Projects = () => {
 
                 {/* Dark Night Hero */}
                 <div className="py-2">
-                    <div className="flex flex-col md:flex-row items-center border rounded-lg shadow border-gray-700 bg-gray-800 hover:bg-gray-700">
+                    <div className="flex flex-col lg:flex-row items-center border rounded-lg shadow border-gray-700 bg-gray-800 hover:bg-gray-700">
 
                         <Image className="object-cover h-80 w-auto rounded-t-lg md:rounded-none md:rounded-l-lg select-none" src={Dnh} alt="Dark Night Hero"/>
 
@@ -62,7 +62,7 @@ const Projects = () => {
 
                 {/* AriseDeck */}
                 <div className="py-2">
-                    <div  className="flex flex-col md:flex-row items-center border rounded-lg shadow border-gray-700 bg-gray-800 hover:bg-gray-700">
+                    <div  className="flex flex-col lg:flex-row items-center border rounded-lg shadow border-gray-700 bg-gray-800 hover:bg-gray-700">
 
                         <Image className="md:px-[12rem] object-cover h-80 w-full rounded-t-lg md:rounded-none md:rounded-l-lg select-none" src={ariseDeck} alt="Dark Night Hero"/>
 

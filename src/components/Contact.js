@@ -11,7 +11,7 @@ config.autoAddCss = false;
 const Contact = () => {
 
     return (
-        <div className="flex bg-slate-800 items-center justify-center px-20 py-20 select:text-blue-400" id="contact">
+        <div className="flex bg-slate-800 items-center justify-center px-5 py-20 select:text-blue-400" id="contact">
             <div className="max-w-7xl">
 
                 <h1 className="text-5xl text-blue-400 font-semibold py-5 selection:text-blue-900">

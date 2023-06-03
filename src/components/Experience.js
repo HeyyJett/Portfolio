@@ -7,7 +7,7 @@ import Image from "next/image";
 const Experience = () => {
 
     return (
-        <div className="flex bg-slate-800 items-center justify-center px-20 py-20" id="experience">
+        <div className="flex bg-slate-800 items-center justify-center px-5 py-20" id="experience">
             <div className="max-w-7xl">
 
                 <h1 className="text-5xl text-blue-400 font-semibold py-5 selection:text-blue-900">
@@ -35,18 +35,19 @@ const Experience = () => {
 
                         <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
                             • Developed a predictive model to study the co-variation of DNA, RNA, and protein measurements in single cells during the development of bone marrow stem cells into mature blood cells. <br/>
-
                             • Trained the model on a subset of a 300,000-cell time course dataset of CD34+ hematopoietic stem and progenitor cells (HSPC) from four human donors at five time points. <br/>
                             • Utilized data provided by Cellarity, a cell-centric drug creation company, for a competition focused on mapping genetic information across cellular states. <br/>
                             • Successfully addressed the challenge of predicting a paired modality measured in the same cell using test data from a later time point than any in the training data. <br/>
                             • Contributed to accelerating innovation in the understanding of complex regulatory processes by enabling the prediction of one modality from another. <br/>
                         </p>
 
-                        <span className='px-1'>
-                            <a className="inline-flex items-center px-5 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700 selection:text-white">
-                                Python
-                            </a>
-                        </span>
+                        <div className="flex flex-wrap">
+                            <span className='px-1 py-1'>
+                                <a className="inline-flex items-center px-5 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700 selection:text-white">
+                                    Python
+                                </a>
+                            </span>
+                        </div>
                     </li>
 
                     {/* Internship */}
@@ -75,36 +76,37 @@ const Experience = () => {
 
                         </p>
 
-                        <span className='px-1'>
-                            <a className="inline-flex items-center px-5 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700 selection:text-white">
-                                Vue
-                            </a>
-                        </span>
+                        <div className="flex flex-wrap">
+                            <span className='px-1 py-1'>
+                                <a className="inline-flex items-center px-5 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700 selection:text-white">
+                                    Vue
+                                </a>
+                            </span>
 
-                        <span className='px-1'>
-                            <a className="inline-flex items-center px-5 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700 selection:text-white">
-                                Javascript
-                            </a>
-                        </span>
+                            <span className='px-1 py-1'>
+                                <a className="inline-flex items-center px-5 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700 selection:text-white">
+                                    Javascript
+                                </a>
+                            </span>
 
-                        <span className='px-1'>
-                            <a className="inline-flex items-center px-5 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700 selection:text-white">
-                                HTML
-                            </a>
-                        </span>
+                            <span className='px-1 py-1'>
+                                <a className="inline-flex items-center px-5 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700 selection:text-white">
+                                    HTML
+                                </a>
+                            </span>
 
-                        <span className='px-1'>
-                            <a className="inline-flex items-center px-5 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700 selection:text-white">
-                                CSS
-                            </a>
-                        </span>
+                            <span className='px-1 py-1'>
+                                <a className="inline-flex items-center px-5 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700 selection:text-white">
+                                    CSS
+                                </a>
+                            </span>
 
-                        <span className='px-1'>
-                            <a className="inline-flex items-center px-5 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700 selection:text-white">
-                                Firebase
-                            </a>
-                        </span>
-
+                            <span className='px-1 py-1'>
+                                <a className="inline-flex items-center px-5 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700 selection:text-white">
+                                    Firebase
+                                </a>
+                            </span>
+                        </div>
                     </li>
 
                     {/* Capstone */}
@@ -135,17 +137,19 @@ const Experience = () => {
                             • Collaborated with the team to ensure seamless integration of all components, optimizing performance and ensuring a cohesive gaming experience.
                         </p>
 
-                        <span className='px-1'>
-                            <a className="inline-flex items-center px-5 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700 selection:text-white">
-                                Unity
-                            </a>
-                        </span>
+                        <div className="flex flex-wrap">
+                            <span className='px-1 py-1'>
+                                <a className="inline-flex items-center px-5 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700 selection:text-white">
+                                    Unity
+                                </a>
+                            </span>
 
-                        <span className='px-1'>
-                            <a className="inline-flex items-center px-5 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700 selection:text-white">
-                                C#
-                            </a>
-                        </span>
+                            <span className='px-1 py-1'>
+                                <a className="inline-flex items-center px-5 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700 selection:text-white">
+                                    C#
+                                </a>
+                            </span>
+                        </div>
 
                     </li>
                 </ol>
