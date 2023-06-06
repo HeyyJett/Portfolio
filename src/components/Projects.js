@@ -29,10 +29,11 @@ const Projects = () => {
                             </h5>
 
                             <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 text-justify selection:text-blue-400">
-                                Dark Night Hero is a captivating 3D roguelike RPG that combines magic spells, intense combat, and a fantasy dungeon environment.
-                                Engage in action-packed battles, navigate challenging levels, and face off against formidable boss enemies.
-                                With a dynamic heads-up display, inventory system, and character progression, the game offers immersive gameplay.
-                                Play alone or team up with friends in multiplayer mode for an unforgettable online adventure.
+                                A captivating 3D rogue-lite RPG that combines magic spells, intense combat, and a fantasy dungeon environment.
+                                The game features action-packed battles, challenging levels, and formidable boss enemies. With a dynamic heads-up
+                                display, inventory system, character progression, the game offers immersive gameplay that can be played alone
+                                or with friends in multiplayer mode. You can download a copy of the game or watch an overview by visiting the
+                                website link below.
                             </p>
 
                             <div className="flex flex-row">

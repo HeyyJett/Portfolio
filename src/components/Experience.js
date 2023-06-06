@@ -34,11 +34,12 @@ const Experience = () => {
                         </time>
 
                         <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-                            • Developed a predictive model to study the co-variation of DNA, RNA, and protein measurements in single cells during the development of bone marrow stem cells into mature blood cells. <br/>
-                            • Trained the model on a subset of a 300,000-cell time course dataset of CD34+ hematopoietic stem and progenitor cells (HSPC) from four human donors at five time points. <br/>
-                            • Utilized data provided by Cellarity, a cell-centric drug creation company, for a competition focused on mapping genetic information across cellular states. <br/>
-                            • Successfully addressed the challenge of predicting a paired modality measured in the same cell using test data from a later time point than any in the training data. <br/>
-                            • Contributed to accelerating innovation in the understanding of complex regulatory processes by enabling the prediction of one modality from another. <br/>
+                            • Developed and implemented two models, CITEseq and Multiome, to predict the co-variation of DNA, RNA, and protein measurements in single cells as bone marrow stem cells transition into mature blood cells. <br/>
+                            • Conducted feature selection and preprocessing on a subset of a 300,000-cell time course dataset of CD34+ hematopoietic stem and progenitor cells (HSPC) <br/>
+                            • Designed and executed a cross-validation strategy by converting the data into a sparse matrix, normalizing the targets, and processing each feature using relevant libraries. <br/>
+                            • Implemented correlation scoring techniques, such as loss of correlation score and correlation score, to determine optimal model parameters for both CITEseq and Multiome models. <br/>
+                            • Successfully trained the models using the gathered data, with the Multiome model leveraging the results from the CITEseq, accurately predicting genetic information mapping. <br/>
+                            • Addressed the challenge of predicting a paired modality measured in the same cell using test data from a later time point than any in the training data. <br/>
                         </p>
 
                         <div className="flex flex-wrap">
@@ -59,7 +60,7 @@ const Experience = () => {
                         </span>
 
                         <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-                            Lead Front-End Developement
+                            Front-End Developement
                             <span className="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-blue-900 text-blue-300 ml-3 selection:text-white">Internship</span>
                         </h3>
 
@@ -68,12 +69,12 @@ const Experience = () => {
                         </time>
 
                         <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-                            • Designed and developed a web application using the Vue framework as a Lead Front-End Intern, resulting in an enhanced user experience and improved functionality. <br/>
-                            • Designed wireframes and crafted new UI elements to ensure a visually appealing and intuitive interface for users. <br/>
+                            • Designed and developed a web application using Vue as the lead Front-End developer, resulting in an enhanced user experience and improved functionality. <br/>
+                            • Collaborated with the content team to implement a dynamic display of articles and blog cards, showcasing web3 content and information on blockchain technology. <br/>
+                            • Implemented a secure and user-friendly register, login, and forgot password system, ensuring a smooth user authentication experience. <br/>
+                            • Designed wireframes and new UI elements to ensure a visually appealing and intuitive interface for users. <br/>
                             • Integrated animations to add fluidity and interactivity to the web application, enhancing user engagement and overall usability. <br/>
                             • Implemented a responsive database search feature in the UI, enabling users to efficiently retrieve and filter information from the database. <br/>
-                            • Collaborated with the development team to ensure seamless integration of front-end components with back-end functionalities, ensuring a cohesive and efficient web application.
-
                         </p>
 
                         <div className="flex flex-wrap">
@@ -127,12 +128,12 @@ const Experience = () => {
                         </time>
 
                         <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-                            • Conducted extensive research on assets for weapons, terrain, characters, enemies, and UI elements, selecting and integrating them into a Unity 3D roguelike project. <br/>
-                            • Developed the player screen UI, including the implementation of health bar, mana bar, and crosshair, ensuring a seamless and intuitive user experience. <br/>
+                            • Conducted extensive research on assets for weapons, terrain, characters, enemies, and UI elements, selecting and integrating them into a Unity 3D multiplayer project. <br/>
+                            • Developed the player screen UI, including the implementation of health bar, mana bar, and cross hair, ensuring a seamless and intuitive user experience. <br/>
                             • Designed and implemented an equipment system, enabling players to equip weapons and items, enhancing gameplay and customization options. <br/>
                             • Created a hot bar and inventory system, allowing players to manage and access their items and abilities efficiently during gameplay. <br/>
-                            • Implemented animations for both player characters and enemies, utilizing box colliders to accurately calculate and apply damage dealt. <br/>
-                            • Designed and constructed diverse maps and levels, providing engaging and challenging environments for players to explore. <br/>
+                            • Implemented animations for both player characters and enemies, utilizing box colliders to accurately calculate and apply damage. <br/>
+                            • Designed and constructed each level, providing engaging and challenging environments for players to explore. <br/>
                             • Developed a shop and currency system, enabling players to purchase items, enhancing the game&rsquo;s progression and economy. <br/>
                             • Collaborated with the team to ensure seamless integration of all components, optimizing performance and ensuring a cohesive gaming experience.
                         </p>
