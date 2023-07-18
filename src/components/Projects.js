@@ -10,7 +10,7 @@ const Projects = () => {
 
     return (
         <div className="flex bg-slate-800 items-center justify-center px-5 py-20" id="projects">
-            <div className="max-w-7xl">
+            <div className="max-w-7xl w-full">
 
                 <h1 className="text-5xl text-blue-400 font-semibold py-5 selection:text-blue-900">
                     Projects

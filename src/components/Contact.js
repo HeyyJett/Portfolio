@@ -11,19 +11,19 @@ config.autoAddCss = false;
 const Contact = () => {
 
     return (
-        <div className="flex bg-slate-800 items-center justify-center px-5 py-20 select:text-blue-400" id="contact">
-            <div className="max-w-7xl">
+        <div className="flex bg-slate-800 items-center justify-center px-5 py-20" id="contact">
+            <div className="max-w-7xl w-full">
 
-                <h1 className="text-5xl text-blue-400 font-semibold py-5 selection:text-blue-900">
+                <h1 className=" text-5xl text-blue-400 font-semibold py-5 selection:text-blue-900 text-left">
                     Contact Me
                 </h1>
 
                 <div className="flex flex-col md:flex-row flex-wrap py-5 items-center justify-center">
 
                     {/*     Email Card      */}
-                    <div className="md:px-8 py-5">
+                    <div className="px-8 py-5">
 
-                        <div className="w-[20rem] md:w-[30rem] h-[20rem] p-3 rounded-lg shadow-md bg-gray-600 content-center flex items-center justify-center
+                        <div className="w-[30rem] h-[20rem] p-3 rounded-lg shadow-md bg-gray-600 content-center flex items-center justify-center
                         bg-[url('https://images.pexels.com/photos/714258/pexels-photo-714258.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')]
                         bg-no-repeat bg-cover bg-blend-multiply ">
 
@@ -48,8 +48,8 @@ const Contact = () => {
 
 
                     {/*     Linkedin Card      */}
-                    <div className="md:px-8 py-5">
-                        <div className="w-[20rem] md:w-[30rem] h-[20rem] p-3 rounded-lg shadow-md bg-gray-600 content-center flex items-center justify-center
+                    <div className="px-8 py-5">
+                        <div className="w-[30rem] h-[20rem] p-3 rounded-lg shadow-md bg-gray-600 content-center flex items-center justify-center
                         bg-[url('https://images.pexels.com/photos/355241/pexels-photo-355241.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')]
                         bg-no-repeat bg-cover bg-blend-multiply ">
 
@@ -72,8 +72,8 @@ const Contact = () => {
                     </div>
 
                     {/*     GitHub Card      */}
-                    <div className="md:px-8 py-5">
-                        <div className="w-[20rem] md:w-[30rem] h-[20rem] p-3 rounded-lg shadow-md bg-gray-600 content-center flex items-center justify-center
+                    <div className="px-8 py-5">
+                        <div className="w-[30rem] h-[20rem] p-3 rounded-lg shadow-md bg-gray-600 content-center flex items-center justify-center
                         bg-[url('https://images.pexels.com/photos/2356087/pexels-photo-2356087.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')]
                         bg-no-repeat bg-cover bg-blend-multiply ">
 
@@ -96,8 +96,8 @@ const Contact = () => {
                     </div>
 
                     {/*     Phone Card      */}
-                    <div className="md:px-8 py-5">
-                        <div className="w-[20rem] md:w-[30rem] h-[20rem] p-3 rounded-lg shadow-md bg-gray-600 content-center flex items-center justify-center
+                    <div className="px-8 py-5">
+                        <div className="w-[30rem] h-[20rem] p-3 rounded-lg shadow-md bg-gray-600 content-center flex items-center justify-center
                         bg-[url('https://images.pexels.com/photos/2937792/pexels-photo-2937792.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')]
                         bg-no-repeat bg-cover bg-blend-multiply ">
 

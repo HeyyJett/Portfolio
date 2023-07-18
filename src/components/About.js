@@ -5,7 +5,7 @@ const About = () => {
 
     return (
         <div className="flex bg-slate-800 items-center justify-center px-5 py-20" id="about">
-            <div className="max-w-7xl flex flex-col md:flex-row">
+            <div className="max-w-7xl w-full flex flex-col md:flex-row">
                 <div className="text-gray-300 max-w-2xl">
 
                     <h1 className="text-5xl text-blue-400 font-semibold py-5 selection:text-blue-900">
@@ -57,7 +57,7 @@ const About = () => {
 
                 </div>
 
-                <div className="px-5 py-20 items-center justify-between">
+                <div className="px-5 py-20 flex items-center justify-between">
                     <Image className="select-none"
                            src={cristopher}
                            alt="Cristopher"/>
